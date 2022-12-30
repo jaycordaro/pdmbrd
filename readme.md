@@ -26,4 +26,8 @@
 
 ## Operation
 
+## License
+
+Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)
+
 See the PDMBRD REV A User Guide and schematic for more information
