@@ -1,6 +1,8 @@
-PDMBRD 
+# PDMBRD 
 
-KiCAD 6.x board with two FAN3852 analog to digital converters.  
+## KiCAD 6.x board with two FAN3852 analog to digital converters.  
+
+## Features
 
 * Converts analog audio and ultrasound signals into digital Pulse Density (PDM) format
 * jumper selection for different options
@@ -11,7 +13,7 @@ KiCAD 6.x board with two FAN3852 analog to digital converters.
 * Board can be assembled by JLCPCB
 * much cheaper than OnSemi FAN3852 EVB 
 
-Equipment Required
+## Equipment Required
 * USB Micro cable for 5V power
 * Analog source
 * SMA and/or jumper wires to connect test equipment
