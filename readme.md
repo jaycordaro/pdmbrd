@@ -40,7 +40,7 @@ Set j12 and J13 to 2-1 and connect SMA cables to signal generator(s)
 
 ## Fabrication
 
-The board was fabricated at JLCPCB.  The directory .\jlcpcb\gerbers contains the zip of the gerbers in the format that JLCPCB requires.  Follow the directions that JLCPCB have on their website for fabricating boards with KiCAD 6.  [link](https://jlcpcb.com/help/article/16-How-to-generate-Gerber-and-Drill-files-in-KiCad-6).  Note that .gtl is top layer, .gbl is bottom layer and .g2 and .g3 are the 2nd and 3rd layers respectively.  The JLCPCB BOM and XY files in .csv format are in .\jlcpcb\fabrication.  All devices were placed on the top layer for 'economic' JLCPCB assembly option.  The CUI SJ-3523-SMT audio jack and FAN3852UCX ADCs were not available for assembly at JLCPCB but are available from Digikey.  Note that FAN3852 is 0.4mm pitch.
+The board was fabricated at JLCPCB.  The directory .\jlcpcb\gerbers contains the zip of the gerbers in the format that JLCPCB requires.  Follow the directions that JLCPCB have on their website for fabricating boards with KiCAD 6.  [link](https://jlcpcb.com/help/article/16-How-to-generate-Gerber-and-Drill-files-in-KiCad-6).  Note that .gtl is top layer, .gbl is bottom layer and .g2 and .g3 are the 2nd and 3rd layers respectively.  The JLCPCB BOM and XY files in .csv format are in .\jlcpcb\fabrication.  All devices were placed on the top layer for 'economic' JLCPCB assembly option.  The CUI SJ-3523-SMT audio jack and FAN3852UCX ADCs were not available for assembly at JLCPCB but are available from Mouser.  Note that FAN3852 is 0.4mm pitch.
  
 ## License
 
