@@ -8,19 +8,19 @@
 ## Features
 
 * Converts analog audio and ultrasound signals into digital Pulse Density (PDM) format
-* jumper selection for different options
-* accepts analog input signals from SMA connectors, jumper wire, or 3.5mm (1/8") stereo jack
+* Jumper selection for different options
+* Accepts analog input signals from SMA connectors, jumper wire, or 3.5mm (1/8") stereo jack
 * On-board low noise LT3042 voltage regulator (U1) powered from USB Micro provides 3.3V or 1.8V to the ADCs
 
 * Board can be (mostly) assembled by JLCPCB (only U2 and UJ3 FAN3852 and J16 CUI SJ-3523-SMT audio jack need hand soldering)
-* much cheaper than OnSemi FAN3852 EVB 
+* Much cheaper than OnSemi FAN3852 EVB 
 
 ## Equipment Required
 
 * USB Micro cable for 5V power
 * Analog source
 * SMA and/or jumper wires to connect test equipment
-* 3.5mm male stereo jack if using audio input
+* 3.5mm male stereo jack if using analog audio input
 * PDMCLK source/PDMDAT Sink
 
 
