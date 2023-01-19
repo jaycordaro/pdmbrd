@@ -33,7 +33,7 @@ Short J6 and J7 to connect the left and right PDAT channels to J5.  If J5 will s
 
 ### Audio in over 3.5mm jack
 Set J12 and J13 to 2-3.
-insert a 3.5mm male jack into J16.  
+insert a 3.5mm male jack into J16.  The figure below shows 1.8V operation with the jumpers configured for audio in over J16, 3.5mm jack.
 
 ![pdm_3p5mm_in_config](/images/pdm_3p5mm_in_config.png)
 
