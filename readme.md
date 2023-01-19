@@ -1,6 +1,6 @@
 # PDMBRD 
 
-<img src="./images/board_top.png" width="640" height="480">
+<img src="./images/board_top.png" width="600" height="480">
 ![pdmbrd top](/images/board_top.png = 640x480)
 
 
