@@ -1,6 +1,6 @@
 # PDMBRD 
 
-![pdmbrd top](/images/board_top.png)
+![pdmbrd top](/images/board_top.png = 640x480)
 
 
 ## KiCAD 6.x board with two FAN3852 PDM analog to digital converters (ADCs).  
@@ -35,7 +35,7 @@ Short J6 and J7 to connect the left and right PDAT channels to J5.  If J5 will s
 Set J12 and J13 to 2-3.
 insert a 3.5mm male jack into J16.  The figure below shows 1.8V operation with the jumpers configured for audio in over J16, 3.5mm jack.
 
-![pdm_3p5mm_in_config](/images/pdm_3p5mm_in_config.png)
+![pdm_3p5mm_in_config](/images/pdm_3p5mm_in_config.png = 640x480)
 
 ## Audio in over SMA
 Set j12 and J13 to 2-1 and connect SMA cables to signal generator(s)
