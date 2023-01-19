@@ -35,6 +35,8 @@ Short J6 and J7 to connect the left and right PDAT channels to J5.  If J5 will s
 Set J12 and J13 to 2-3.
 insert a 3.5mm male jack into J16.  
 
+![pdm_3p5mm_in_config](/images/pdm_3p5mm_in_config.png)
+
 ## Audio in over SMA
 Set j12 and J13 to 2-1 and connect SMA cables to signal generator(s)
 
