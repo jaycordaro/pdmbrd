@@ -3,7 +3,7 @@
 ![pdmbrd top](/images/board_top.png)
 
 
-## KiCAD 6.x board with two FAN3852 analog to digital converters (ADCs).  
+## KiCAD 6.x board with two FAN3852 PDM analog to digital converters (ADCs).  
 
 ## Features
 
