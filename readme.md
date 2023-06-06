@@ -47,6 +47,7 @@ Layer stackup:
 * 2nd layer: .g2
 * 3rd layer: .g3
 * bottom layer: .gbl 
+
 The JLCPCB BOM and XY files in .csv format are in .\jlcpcb\fabrication.  All devices were placed on the top layer for 'economic' JLCPCB assembly option.  The CUI SJ-3523-SMT audio jack and FAN3852UCX ADCs were not available for assembly at JLCPCB but are available from Mouser.  Note that FAN3852 is 0.4mm pitch.
  
 ## License
