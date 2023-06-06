@@ -6,7 +6,7 @@
 
 ## Features
 
-* Converts analog audio and ultrasound signals into digital Pulse Density (PDM) format
+* Converts analog audio and ultrasound signals into digital Pulse Density Modulation (PDM) format
 * Jumper selection for different options
 * Accepts analog input signals from SMA connectors, jumper wire, or 3.5mm (1/8") stereo jack
 * On-board low noise LT3042 voltage regulator (U1) powered from USB Micro provides 3.3V or 1.8V to the ADCs
@@ -29,6 +29,7 @@ Set J1 to voltage of PDM input of the dut -- leave open for 3.3V and short for 1
 Plug in J2 to a Micro USB jack to supply 5V to the board.
 If the PDMCLK will be supplied via SMA, short jumpers J8/J9 for left and right channels respetively.  If feeding via jumper, insert female jumper wire to J8.1 and J9.1.
 Short J6 and J7 to connect the left and right PDAT channels to J5.  If J5 will supply the PDAT output over SMA, short J5. If feeding via jumper, insert female jumper wire to J5.1.
+Electret microphones require DC bias.  Short jumpers J10 and J11 to apply bias for the left and right channels, respectively.  
 
 ### Audio in over 3.5mm jack
 Set J12 and J13 to 2-3.
@@ -48,7 +49,7 @@ Layer stackup:
 * 3rd layer: .g3
 * bottom layer: .gbl 
 
-The JLCPCB BOM and XY files in .csv format are in .\jlcpcb\fabrication.  All devices were placed on the top layer for 'economic' JLCPCB assembly option.  The CUI SJ-3523-SMT audio jack and FAN3852UCX ADCs were not available for assembly at JLCPCB but are available from Mouser.  Note that FAN3852 is 0.4mm pitch.
+The JLCPCB BOM and XY files in .csv format are in .\jlcpcb\fabrication.  All devices were placed on the top layer for 'economic' JLCPCB assembly option.  The CUI SJ-3523-SMT audio jack and FAN3852UCX ADCs were not available for assembly at JLCPCB but are available from Mouser.  Note that FAN3852 is 0.4mm pitch.  If you are not experienced with soldering fine-pitch BGAs, ask someone to solder it for oyu.  
  
 ## License
 
